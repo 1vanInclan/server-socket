@@ -1,0 +1,21 @@
+@import "../../../scss/index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+.login-form {
+     
+
+    h2{
+        font-size: 17px !important;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;  
+    }
+
+    input{
+        padding: 15px !important;
+        background-color: #f9f9f9 !important;
+        font-family: 'Montserrat', sans-serif; 
+    }
+}

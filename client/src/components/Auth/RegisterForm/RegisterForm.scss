@@ -1,0 +1,26 @@
+@import "../../../scss/index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+
+.register-form-title{
+    font-size: 17px !important;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.register-form{
+    input {
+        font-family: 'Montserrat', sans-serif;  
+        padding: 13px !important;
+        background-color: #f9f9f9 !important;
+    }
+    .checked{
+        text-align: center;
+    }
+    
+    .btn-submit{
+        margin-top: 10px;
+    }
+}   

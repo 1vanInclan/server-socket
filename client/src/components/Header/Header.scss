@@ -1,0 +1,40 @@
+@import"../../scss/index.scss";
+
+.header{
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 12px 0;
+    background-color: $background-light;
+    z-index: 1;
+
+    &__logo{
+        display:flex !important;
+        align-items: center;
+        
+        img{
+            height: 85px;
+        }
+
+    }   
+
+}
+
+.text-center{
+        height: 100%;
+        grid-column: 2/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:#023E8A;
+        text-align: center;
+        
+        font-size: large;
+
+        span{
+            margin-bottom: 4px;
+        }
+
+        
+
+}

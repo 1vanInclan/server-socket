@@ -1,0 +1,178 @@
+@import "../../scss/index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+body{
+    background-color:#e4e4e4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.auth{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    .navbar{
+        width: 90%;
+        height: 220px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        transform-style: preserve-3d;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        box-shadow: 0 13px 13px  0 rgba(0, 0, 0, 0.576);
+        margin-bottom: 40px;    
+    }
+    
+    .logo_izq{
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .logo_izq{
+            display: none;
+        }
+    }
+    
+    .text-center{
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .navbar{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    .logo_unam{
+        width: 140px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .logo_unam{
+            width: 100px;
+        }
+    }
+    
+    .title{
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .title{
+            font-size: 15px;
+        }
+    }
+    
+    .subtitle{
+        color: rgb(131, 131, 131);
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .subtitle{
+            font-size: 15px;
+        }
+    }
+    
+    .imagen{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
+    
+    
+    .rounded-circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .rounded-circle{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .text-welcome{
+        h2{
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+
+    .container-form{
+        width: 400px;
+        background-color: #ffffff;
+        padding: 20px 50px;
+        border: 1px solid $border-grey;
+        margin-top: 50px;
+        border-radius: 5px;
+        transform-style: preserve-3d;
+        box-shadow: 0 13px 13px  0 rgba(0, 0, 0, 0.576);
+    }
+
+    @media screen and (max-width: 768px) {
+        .container-form{
+            width: 350px;
+        }
+    }
+
+    .change-form{
+        margin-top: 10px;
+        width: 400px;
+        // background-color: $background-light;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 20px 50px;
+        margin-bottom: 30px;
+        border: 1px solid $border-grey;
+        text-align: center;
+        border-radius: 5px;
+        transform-style: preserve-3d;
+        box-shadow: 0 13px 13px  0 rgba(0, 0, 0, 0.576);
+    }
+    @media screen and (max-width: 768px) {
+        .change-form{
+            width: 350px;
+        }
+    }
+    p{
+        font-family: 'Montserrat', sans-serif; 
+    }
+
+    span {
+        color: $action;
+        font-weight: bold;
+        margin-left: 5px;
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
